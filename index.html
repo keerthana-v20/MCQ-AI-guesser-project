@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCQ Guesser AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎯 MCQ Guesser AI</h1>
+
+<div class="card">
+
+<input type="text" id="question" placeholder="Enter MCQ Question">
+
+<div class="options">
+
+<input type="text" id="a" placeholder="Option A">
+<input type="text" id="b" placeholder="Option B">
+<input type="text" id="c" placeholder="Option C">
+<input type="text" id="d" placeholder="Option D">
+
+</div>
+
+<button onclick="guessAnswer()">Guess Answer</button>
+
+<button onclick="clearAll()" class="clear">Clear</button>
+
+<div id="result"></div>
+
+</div>
+
+<div class="history">
+
+<h2>Guess History</h2>
+<ul id="historyList"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
